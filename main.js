@@ -1,3 +1,5 @@
+const searchBtn = document.querySelector("#search-button");
+
 fetch("http://www.omdbapi.com/?t=Jaws&apikey=a64c27d1")
   .then((response) => {
     if (!response.ok) {
