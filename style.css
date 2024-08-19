@@ -11,17 +11,14 @@ html {
 }
 
 body {
-  min-height: 100vh;
+  height: 100vh;
   font-family: "Poppins", sans-serif;
   background-color: rgba(0, 0, 0, 0.822);
-  color: red;
-  padding: 2rem;
 }
 
 /* Grid Container and Grid items styling */
 
 .grid-container {
-  min-height: 90vh;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: auto 1fr;
@@ -64,36 +61,46 @@ body {
 }
 
 .title-and-poster {
+  height: 90vh;
   grid-column: 1/3;
-  border: 1px solid green;
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 2rem;
+  padding: 2rem 0;
   gap: 2rem;
+  display: none;
 }
 
 .title-and-poster h1 {
   font-size: 2rem;
+  color: red;
 }
 
 .title-and-poster img {
-  border: 1px solid green;
   width: 80%;
   height: 80%;
 }
 
 .movie-details {
   grid-column: 3/5;
-  border: 1px solid brown;
   display: flex;
-  flex-direction: column;
-  justify-content: space-around;
+  align-items: center;
   padding: 2rem;
+  display: none;
 }
 
-.movie-details span {
-  font-size: 1.3rem;
+.movie-details-container {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  height: 70%;
+  gap: 2rem;
+  padding: 2rem 1rem;
+}
+
+.movie-details-container span {
+  font-size: 1.1rem;
+  color: red;
 }
 
 #year,
@@ -104,9 +111,17 @@ body {
 #rating,
 #plot {
   color: white;
-  font-size: 1.3rem;
+  font-size: 1.1rem;
 }
 
-.hidden {
+.error-message-container {
+  position: absolute;
+  right: 40rem;
+  bottom: 25rem;
   display: none;
+}
+
+.error-message-container span {
+  font-size: 4rem;
+  color: red;
 }
