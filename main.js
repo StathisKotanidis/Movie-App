@@ -21,7 +21,7 @@ searchBtn.addEventListener("click", () => {
 });
 
 function getMovieInfo() {
-  fetch(`http://www.omdbapi.com/?t=${searchbarInput.value}&apikey=a64c27d1`)
+  fetch(`https://www.omdbapi.com/?t=${searchbarInput.value}&apikey=a64c27d1`)
     .then((response) => {
       if (!response.ok) {
         console.error(
