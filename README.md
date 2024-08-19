@@ -18,3 +18,5 @@ Movie Sleuth is a web application that allows users to search for movies and TV 
 - Error Handling: I implemented error handling for scenarios where a user's search does not return any results, ensuring that the app remains user-friendly and informative even when no data is found.
 - DOM Manipulation: Through JavaScript, I gained more experience in manipulating the Document Object Model (DOM) to update the content displayed to the user based on their interactions with the app.
 - Debugging and Testing: I enhanced my debugging and testing skills by identifying and fixing issues that arose during the development process, ensuring smooth functionality.
+
+Live Demo: https://stathiskotanidis.github.io/Movie-App/
