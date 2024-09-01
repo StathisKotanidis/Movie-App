@@ -2,6 +2,11 @@
 
 Movie Sleuth is a web application that allows users to search for movies and TV shows by name and retrieve information such as the title, year, genre, cast, duration, language, IMDB rating, and a brief plot summary, along with a poster image. The app communicates with an external API to fetch the relevant data. If a user searches for a title that doesn't exist in the database, the app displays a "Movie not found" message.
 
+## How It's Made
+
+Tech Stack: HTML, CSS, JAvascript, Fetch, API
+
+
 ## Features
 - Search Functionality: Users can search for any movie or TV show by entering its name in the search bar.
 - Dynamic Content Display: The app displays information about the movie or show, including a poster, title, year, genre, cast, duration, language, IMDB rating, and a plot summary.
